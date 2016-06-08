@@ -1,0 +1,13 @@
+{
+  "name": "MouseEatsCat",
+  "displayName": "MouseEatsCat",
+  "theme": "MouseEatsCat",
+  "version": "1.0.0",
+  "description": "Theme created by Michel D",
+  "license": "GPL-3.0",
+  "engines": {
+    "nylas": "*"
+  },
+  "styleSheets": ["main"],
+  "private": true
+}
