@@ -3,7 +3,11 @@ This theme was developed as a personal project by [Michel Descoteaux](https://mi
 
 ## Installation
 This theme can be installed by using the following steps:
+
 1. Save the folder somewhere on your computer
-2. Go to the options dropdown on the top right of the Nylas N1 client, and then choose "Install Theme".
-3. Find the folder where you saved the theme and then click "Select Folder"
+
+2. Open N1 and install the theme by going to the options dropdown on the top right, and then choose `Install Theme`.
+
+3. Find the folder where you saved the theme and then click `Select Folder`
+
 4. The theme should now be installed!
