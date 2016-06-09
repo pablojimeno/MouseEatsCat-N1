@@ -1,5 +1,5 @@
 # MouseEatsCat Nylas N1 Theme
-This theme was developed as a personal project by [Michel Descoteaux](http://micheld.ca) and is free to use and distribute.
+This theme was developed as a personal project by [Michel Descoteaux](https://micheldescoteaux.com) and is free to use and distribute.
 
 ## Installation
 This theme can be installed by using the following steps:
