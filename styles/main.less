@@ -180,3 +180,30 @@ body.is-blurred .search-bar .menu .header-container input {
     border: 1px solid @white;
     border-radius: 15px !important;
 }
+
+.file-wrap.file-image-wrap .file-action-icon {
+    cursor: pointer;
+}
+
+.file-wrap.file-image-wrap {
+  max-width: 180px !important;
+  min-width: auto !important;
+	&:after {
+    content: "l";
+    position: absolute;
+    font-size: 0px;
+    bottom: 0px;
+    right: 0px;
+    z-index: 10;
+    width: 0px;
+    height: 20px;
+    border-right: 20px solid #FFF;
+    border-top: 20px solid transparent;
+    border-left: 0px solid transparent;
+    background-color: rgba(191, 191, 191, 0.75);
+    border-bottom: 0px solid transparent;
+	}
+	.file-preview img {
+    cursor: pointer;
+	}
+}
