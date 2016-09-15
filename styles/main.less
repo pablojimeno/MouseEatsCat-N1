@@ -220,3 +220,26 @@ body.is-blurred .search-bar .menu .header-container input {
 	max-width: 100%;
 	height: auto !important;
 }
+button.btn.btn-toolbar.item-compose {
+  position: fixed;
+  bottom: 30px;
+  right: 40px;
+  background: @pink !important;
+  width: 70px;
+  height: 70px;
+  display: block;
+  z-index: 10000;
+  box-sizing: border-box;
+  border-radius: 50%;
+  cursor: pointer;
+	transition: background .1s ease-in-out;
+	&:hover{
+		background: #ff7676 !important;
+		img{
+			opacity:1 !important;
+		}
+	}
+	img{
+		transition: opacity .1s ease-in-out;
+	}
+}
