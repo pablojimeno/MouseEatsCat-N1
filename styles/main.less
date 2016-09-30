@@ -36,9 +36,11 @@
   z-index: 10;
   border-bottom: none;
   box-shadow: 5px 5px 35px -13px @black;
-	.btn-toolbar img.content-mask {
-    background-color: rgba(67, 70, 72, 0.8);
-    background-color: @white;
+	.btn-toolbar img{
+		&.content-mask {
+	    background-color: rgba(67, 70, 72, 0.8);
+	    background-color: @white;
+		}
 	}
 	.item-back{
 		.item-back-title {
@@ -264,6 +266,9 @@ body.is-blurred{
     background: rgba(137, 137, 137, 0.35);
     border-bottom: 1px solid rgba(137, 137, 137, 0.35);
     color: #231f20;
+	}
+	.sheet-toolbar-container .btn.btn-toolbar img{
+		transition: opacity .2s ease-in-out;
 	}
 }
 .search-bar .menu .header-container input {
